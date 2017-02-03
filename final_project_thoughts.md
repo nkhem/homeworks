@@ -5,3 +5,6 @@ and you can see their activities and encouragement to/arguments for why you shou
 - when you submit the email to congress, you have the option whether or not
 to make your email public and/or to include a box asking "Why is this important to you?" which gives you a forum to make the argument to your followers on the issue
 - set up is similar to change.org
+- opening page will be "what do you care about" with hover-over picture buttons for different issues.
+- also, a feature that shows you your congress-person's voting habits and ideological leanings, to give you an idea about which issues you should focus on organizing around
+- also, a map feature with events displayed - protests, Know Your Rights events, speaker series and socially-relevant conferences
