@@ -1,0 +1,30 @@
+<h1>Sign Up! \(^.^)/</h1>
+
+<table>
+  <form action="<%=users_url%>" method="post">
+    <tr>
+      <td><label for="email">Email</label></td>
+      <td><input type="text" name="user[email]"></td>
+    </tr>
+
+    <tr>
+      <td><label for="user_password">Password</label></td>
+      <td><input type="password" name="user[password]" id="password"></td>
+    </tr>
+
+    <tr>
+      <td><label for="user_confirmation_password">Confirm Password</label></td>
+      <td><input type="password" name="user[confirmation_password]" id="confirmation_password"></td>
+    </tr>
+
+    <tr>
+      <td><input type="submit" value="Sign me up!"></td>
+    </tr>
+
+    <tr>
+      <td> <%= link_to "Already a user?", new_session_url, method: :get %> </td>
+    </tr>
+  </form>
+</table>
+
+<img src="https://lh6.ggpht.com/e16lB90-p_sox1V6azms3pOh1flLRw2yY1NxWnG8vQ-XLt5oc-PmvUg5ZLh98HhozNQ=w300" width="100%" alt="cat_fun">

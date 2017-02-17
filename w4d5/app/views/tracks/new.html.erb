@@ -1,0 +1,22 @@
+<table>
+  <form action="<%=tracks_url%>" method="post">
+    <tr>
+      <td><label for="track_title">Track Title</label></td>
+      <td><input type="text" name="track[title]"></td>
+    </tr>
+
+    <tr>
+      <td><label for="album_id">Album</label></td>
+      <td><select name="track[album_id]" id=album_id>
+        <% Album.all.each do |album| %>
+          <option value="<%= album.id %>"> <%= album.name %></option>
+        <% end %>
+      </select></td>
+    </tr>
+
+    <tr>
+      <td><input type="submit" value="Add track!"></td>
+    </tr>
+  </form>
+</table>
+<%= button_to "skip", bands_url, method: :get %>
